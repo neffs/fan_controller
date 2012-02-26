@@ -7,14 +7,14 @@ Finished:
 -Python script for adjusting and reading the speed
 
 TODO:
--Get sensor values from mainboard and disks an adjust fan speed accordingly.
+-Get sensor values from mainboard and disks, then adjust fan speed accordingly.
 
 
 Hardware:
 
 There are some schematics in the hardware folder. If you have any questions don't hesitate to contact me.
 
-The hardware is based on the V-USB project (http://www.obdev.at/products/vusb) and uses their design with zener diodes (with-zener.png). No additional components (exept for pin headers) are needed. 
+The hardware is based on the V-USB project (http://www.obdev.at/products/vusb) and uses their design with zener diodes (with-zener.png). No additional components (except for pin headers) are needed. 
 I used an Attiny2313 because it has 4 PWM channels and you can configure interrupts on PORTB, which are used for tacho detection.
 The design should work on bigger ATmegas.
 
